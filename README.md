@@ -1,6 +1,6 @@
-# React + Vite
+# Terminal-Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple portfolio design inspired by the aesthetic of a terminal. It features a clean, dark interface with bright text, mimicking the classic look of command-line interfaces. This design is intended to showcase my work in a unique and visually engaging way, making it easy for visitors to navigate through my projects and skills.
 
 Currently, two official plugins are available:
 
