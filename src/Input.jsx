@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect} from "react";
-import { Output } from "./output";
+import { Output } from "./Output";
 
 export function Input() {
     const [iput,Setinput]=useState("");
