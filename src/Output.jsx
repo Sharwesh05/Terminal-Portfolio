@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 export function Output(props){
    switch (props.input) {
     case "help":
@@ -39,7 +41,10 @@ export function Output(props){
         return;
         break;
     case "exit":
-        setTimeout(() => {location.reload(false)},3000); 
+        setTimeout(() => {window.close()},3000); 
+        useEffect(()=>{
+            document.title="exiting....";
+        },[]);
         return <div><br />thank you for trying out!! <br />Made using React.js <br /><br /></div>;
         break;    
     default:
