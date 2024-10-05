@@ -1,9 +1,24 @@
-import { useState } from 'react';
+import { useState,useEffect,useRef } from 'react';
 import { Input } from './Input';
+export function point(){
+    const inputRef = useRef(null);
+    useEffect(() => {
+      inputRef.current.focus();
+    }, []);
+    return inputRef;
+}
 export default function App(){
-    return( <div className="main">
-        welcome to my interactive shell terminal Website
-        <br/>please type "help" to see commands:
+    // useEffect(() => {
+    //     window.addEventListener('click', point());
+    
+    //     // Cleanup function to remove the event listener
+    //     return () => {
+    //       window.removeEventListener('click', point());
+    //     };
+    //   }, []);
+    return( 
+    <div className="main">
         <Input/>
-    </div> )    
+    </div> 
+    )    
 }
