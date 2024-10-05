@@ -1,4 +1,3 @@
-import "./main.css";
 export function Output(props){
    switch (props.input) {
     case "help":
