@@ -24,7 +24,7 @@ export function Input() {
     return (
         <>
         {
-          cstate &&<>{cstate}welcome to my interactive shell terminal Website<br />please type 'help' to see commands:<br /><br /></>
+          cstate &&<>{cstate}welcome to my interactive shell Website<br />please type 'help' to see commands:<br /><br /></>
         }
         <div>
             {field.map((item,index)=>(
