@@ -46,6 +46,9 @@ body{
 }
 @media (max-width:400px){
     .main{
-        font-size: 5px;
+        font-size: 10px;
+    }
+    .textbar{
+        font-size: 10px;
     }
 }
