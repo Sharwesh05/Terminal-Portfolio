@@ -44,3 +44,8 @@ body{
     padding-left: 2px;
     padding-right: 10px;
 }
+@media (max-width:400px){
+    :root{
+        font-size: 10px;
+    }
+}
