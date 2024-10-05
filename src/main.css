@@ -45,7 +45,7 @@ body{
     padding-right: 10px;
 }
 @media (max-width:400px){
-    :root{
+    .main{
         font-size: 5px;
     }
 }
